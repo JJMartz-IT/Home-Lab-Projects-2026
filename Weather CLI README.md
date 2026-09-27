@@ -18,7 +18,7 @@ Couldn't find that city. Try including a state or country, e.g. 'Lancaster, US'.
 Enter a city (or 'quit' to exit): quit
 
 ### Installation
-git clone https://github.com/YOUR-USERNAME/weather-cli.git
+git clone (Weather CLI Tool Code)
 cd weather-cli
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
