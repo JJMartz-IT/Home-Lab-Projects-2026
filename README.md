@@ -10,7 +10,7 @@ Hands-on IT support and systems projects I have built to practice real-world ski
 ## Projects
 
 ### Help Desk Simulation Lab
-A 3-VM environment (Windows 10, Windows Server 2022, Ubuntu 22.04) used to simulate and resolve common support tickets — account lockouts, cross-platform printer sharing, and performance troubleshooting.
+Simulation of support tickets (such as locked accounts, printer sharing between operating systems, and performance optimization) using a 3 virtual machine lab environment (Windows 10, Windows Server 2022, Ubuntu 22.04).
 
 Each ticket is logged with the issue, investigation steps, resolution, and root cause — the same format used in a real ticketing system.
 
@@ -35,6 +35,7 @@ Includes full step-by-step documentation with screenshots, plus a troubleshootin
 
 ## About Me
 
-Moving into IT support after six years managing systems, records, and hardware in fast-paced clinical operations — including implementing a practice management system for a new facility and training staff across two locations.
+I have decided to change career paths into information technology after 6 years of working in animal healthcare. I have a deep love for learning and a curious mind that always pushes me to better my understanding of the unknown. 
 
+## Contact Me
 jj110214@gmail.com
