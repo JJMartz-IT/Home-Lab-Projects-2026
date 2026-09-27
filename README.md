@@ -1,3 +1,4 @@
+# Home-Lab-Projects-2026
 A compilation of home lab projects that I have accumulated as a beginner IT professional.
 
 Hands-on IT support and systems projects I have built to practice real-world skills that are used by It professionals
