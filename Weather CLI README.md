@@ -19,10 +19,18 @@ Enter a city (or 'quit' to exit): quit
 
 ### Installation
 [git clone](https://github.com/JJMartz-IT/Home-Lab-Projects-2026/blob/f5983c7ec44245b5f539002177a838cf966bd39c/Weather%20CLI%20Tool%20Code)
+
 cd weather-cli
+
 python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+
+source venv/bin/activate    
+
+# Windows: venv\Scripts\activate
+
+pip install -r 
+
+requirements.txt
 
 ### Usage
 python weather.py
