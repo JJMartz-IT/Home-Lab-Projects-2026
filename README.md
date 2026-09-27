@@ -1,6 +1,5 @@
 # Home-Lab-Projects-2026
 A compilation of home lab projects that I have accumulated as a beginner IT professional.
-# Home Lab Projects
 
 Hands-on IT support and systems projects I've built to practice real-world troubleshooting, documentation, and infrastructure skills — built while transitioning from six years in clinical/veterinary systems support into IT.
 
