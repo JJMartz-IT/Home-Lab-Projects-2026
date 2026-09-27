@@ -23,6 +23,10 @@ Includes full step-by-step documentation with screenshots, plus a troubleshootin
 
 [View documentation](active-directory-lab.md).
 
+### Weather CLI
+A simple command-line tool that looks up the current weather for any city, written in Python. Built as a project to learn how to work with web APIs.
+
+[View ReadMe](
 ---
 
 ## Environment
