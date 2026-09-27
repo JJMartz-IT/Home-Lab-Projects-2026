@@ -21,7 +21,7 @@ Deployed a Windows Server 2022 domain controller from a clean install in VMware,
 
 Includes full step-by-step documentation with screenshots, plus a troubleshooting section covering the two real issues I hit and how I resolved them.
 
-[View documentation](./active-directory-lab.md)
+[View documentation]((https://github.com/JJMartz-IT/Home-Lab-Projects-2026/blob/main/active-directory-lab))
 
 ---
 
