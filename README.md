@@ -1,61 +1,44 @@
-# Weather CLI
+A compilation of home lab projects that I have accumulated as a beginner IT professional.
 
+Hands-on IT support and systems projects I have built to practice real-world skills that are used by It professionals
+
+**CompTIA Security+ certified (2026)** [Verify](https://cp.certmetrics.com/comptia/en/public/verify/credential/431b44da93a340e098a97e40784f2676).
+
+---
+
+## Projects
+
+### Help Desk Simulation Lab
+Simulation of support tickets (such as locked accounts, printer sharing between operating systems, and performance optimization) using a 3 virtual machine lab environment (Windows 10, Windows Server 2022, Ubuntu 22.04).
+
+Each ticket is logged with the issue, investigation steps, resolution, and root cause — the same format used in a real ticketing system.
+
+[View ticket logs](./tickets.md)
+
+### Active Directory Domain Services Deployment
+Deployed a Windows Server 2022 domain controller from a clean install in VMware, then built out a multi-region OU structure (USA, Europe, Asia), a security group, and a test user account.
+
+Includes full step-by-step documentation with screenshots, plus a troubleshooting section covering the two real issues I hit and how I resolved them.
+
+[View documentation](active-directory-lab.md).
+
+### Weather CLI
 A simple command-line tool that looks up the current weather for any city, written in Python. Built as a project to learn how to work with web APIs.
 
-## What it does
+[View ReadMe](
+---
 
-- Takes a city name as input (e.g. `Lancaster, US`)
-- Resolves it to coordinates using Open-Meteo's free geocoding API
-- Fetches the current temperature and wind speed for that location
-- Handles unmatched cities and network errors without crashing
+## Environment
 
-## Example
+- **Virtualization:** VMware Workstation, Proxmox VE
+- **Systems:** Windows 10 Pro, Windows Server 2022, Ubuntu 22.04
+- **Network:** Internal lab network with DHCP via the domain controller
 
-```
-Enter a city (or 'quit' to exit): Lancaster, US
-It's 74.1°F in Lancaster, with wind at 6.2 mph.
+---
 
-Enter a city (or 'quit' to exit): Nowhereville
-Couldn't find that city. Try including a state or country, e.g. 'Lancaster, US'.
+## About Me
 
-Enter a city (or 'quit' to exit): quit
-```
+I have decided to change career paths into information technology after 6 years of working in animal healthcare. I have a deep love for learning and a curious mind that always pushes me to better my understanding of the unknown. 
 
-## Installation
-
-```
-git clone https://github.com/YOUR-USERNAME/weather-cli.git
-cd weather-cli
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-## Usage
-
-```
-python weather.py
-```
-Enter any city name when prompted (adding a state or country, e.g. `"Paris, France"`, helps disambiguate common city names). Type `quit` to exit.
-
-## How it works
-
-The tool calls two separate Open-Meteo endpoints:
-
-1. **Geocoding API** — turns a city name into latitude/longitude, since the forecast API needs coordinates rather than a name.
-2. **Forecast API** — returns the current temperature and wind speed for those coordinates.
-
-No API key or sign-up is required for either endpoint.
-
-## What I learned
-
-- How to call a REST API from Python using `requests`
-- Reading and pulling specific values out of nested JSON responses
-- Composing small functions together (`get_coordinates()` feeding into `get_weather()`)
-- Basic error handling with `try`/`except` and `raise_for_status()`
-
-## Built with
-
-- Python 3
-- [Requests](https://docs.python-requests.org/)
-- [Open-Meteo API](https://open-meteo.com/)
+## Contact Me
+jj110214@gmail.com
